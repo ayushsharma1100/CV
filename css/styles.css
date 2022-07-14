@@ -101,6 +101,10 @@ h3:hover{
         width: 2.7%;
         margin: 5px;
 }
+.intro{
+        width: 30%;
+        margin: 0 auto 0 auto; 
+}
 .btn {
   background: #44a8eb;
   background-image: -webkit-linear-gradient(top, #44a8eb, #2980b9);
