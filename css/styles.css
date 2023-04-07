@@ -62,13 +62,13 @@ h3:hover{
 }
 .top-cloud{
         position:absolute;
-        right: 400px;
-        top: 100px;
+        right: 73%;
+        top: 70px;
 }
 .bottom-cloud{
         position:absolute;
-        left: 400px;
-        bottom: 300px;
+        left: 70%;
+        bottom: 320px;
 }
 .skill-row{
         width: 50%;
@@ -131,4 +131,127 @@ h3:hover{
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (max-width: 600px) {
+        .mountain{
+                width: 100%;
+        }
+        .bottom-cloud{
+                position: absolute;
+                left: 74%;
+                bottom: 230px;
+                width: 20%;
+        }
+        .top-cloud{
+                position: absolute;
+                right: 74%;
+                top: 60px;
+                width: 20%;
+        }
+        h1{
+                font-size: 3.2rem;
+        }
+        h2{
+                font-size: 1.5rem;
+        }
+        h3{
+                font-size: 1.15rem;
+        }
+        .contact-me h3{
+                width: 85%;
+        }
+        .profile-photo{
+                width: 20%;
+        }
+        p{
+                line-height: 1.5;
+                font-size: 0.8rem;
+        }
+        .intro{
+                width: 50%;
+        }
+        hr{
+                width: 14%;
+                margin: 40px auto;
+        }
+        .skill-row{
+                width: 75%;
+                margin: 35px auto 55px auto; 
+        }
+        .python-image{
+                margin-right: 15px;
+        }
+        .web-image{
+                margin-left: 15px;
+        }
+        .btn{
+                font-size: 13px;
+        }
+        .bottom-container{
+                margin-top: 16px;
+        }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (max-width: 800px) and (min-width: 601px){
+        .skill-row{
+                width: 75%;
+                margin: 50px auto 60px auto; 
+        }
+        .intro{
+                width: 45%;
+        }
+        hr{
+                width: 11%;
+        }
+        .contact-me h3{
+                width: 75%;
+        }
+        .btn{
+                font-size: 15px;
+        }
+        .top-cloud{
+                position: absolute;
+                right: 74%;
+                top: 60px;
+                width: 20%;
+        }
+        .bottom-cloud{
+                position: absolute;
+                left: 74%;
+                bottom: 350px;
+                width: 20%;
+        }
+        h1{
+                font-size: 4.3rem;
+        }
+        h2{
+                font-size: 1.8rem;
+        }
+ }
+@media only screen and (max-width: 1158px) and (min-width: 801px){
+        .skill-row{
+                width: 75%;
+                margin: 50px auto 60px auto; 
+        }
+        .python-image{
+                width: 20%;
+        }
+        .web-image{
+                width: 20%;
+        }
+        h1{
+                font-size: 4.3rem;
+        }
+        h2{
+                font-size: 1.8rem;
+        }
+        hr{
+                width: 11%;
+        }
+        .intro{
+                width: 45%;
+        }
 }
